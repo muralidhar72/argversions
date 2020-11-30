@@ -3,7 +3,7 @@ service:
 image: pmr2791/argo:PREUAT
 port: 8102
 servicetype: LoadBalancer
-replicas: 2
+replicas: 3
 name: currency-conversion
 exchangeUrl: http://currency-exchange:8000
 appparams:

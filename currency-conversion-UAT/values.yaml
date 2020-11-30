@@ -3,7 +3,7 @@ service:
 image: pmr2791/argo:UAT
 port: 8103
 servicetype: LoadBalancer
-replicas: 2
+replicas: 4
 name: currency-conversion
 exchangeUrl: http://currency-exchange:8000
 appparams:
