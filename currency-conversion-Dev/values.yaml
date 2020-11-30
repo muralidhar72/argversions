@@ -1,6 +1,6 @@
 service:
   enabled: true
-image: in28min/currency-conversion:0.0.1-RELEASE
+image: pmr2791/argo:DEV
 port: 8100
 servicetype: LoadBalancer
 replicas: 2

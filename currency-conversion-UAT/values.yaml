@@ -1,7 +1,7 @@
 service:
   enabled: true
-image: in28min/currency-conversion:0.0.1-RELEASE
-port: 8100
+image: pmr2791/argo:UAT
+port: 8103
 servicetype: LoadBalancer
 replicas: 2
 name: currency-conversion
