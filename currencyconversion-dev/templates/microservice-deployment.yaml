@@ -17,12 +17,6 @@ spec:
       containers:
       - name: {{ .Values.name}}
         image: {{ .Values.image}}
-
-        env:
-          - {{- if .Values.service.enabled }} # Check  service.enabed is true
-        - name: CURRENCY_EXCHANGE_URI
-          value: http://currency-exchange:8000
-          {{- end}}
         ports:
         - containerPort: {{ .Values.port}}
 ---

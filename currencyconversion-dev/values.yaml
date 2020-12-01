@@ -5,6 +5,5 @@ port: 8100
 servicetype: LoadBalancer
 replicas: 1
 name: currency-conversion
-exchangeUrl: http://currency-exchange:8000
 appparams:
   applicationname: currency-conversion
